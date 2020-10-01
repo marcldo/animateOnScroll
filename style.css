@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: black;
 }
 
 .intro {
@@ -18,13 +19,23 @@ video {
   object-fit: cover;
 }
 
-.intro h1{
+.intro #tag1{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 80px;
   color: white;
+}
+.intro #tag2{
+  width: 620px;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .section1{
@@ -36,4 +47,5 @@ video {
   padding-top: 300px;
   text-align: center;
   font-size: 80px;
+  color: white;
 }
